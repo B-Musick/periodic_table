@@ -8,8 +8,19 @@ class Element extends PeriodicTable{
         this.protonNum = eleObj.protons;
         this.electronNum = eleObj.electrons;
         this.symbol = eleObj.symbol;
-        this.x = eleObj.x,
-        this.y = eleObj.y
+        this.group = eleObj.group;
+        this.x = eleObj.x;
+        this.y = eleObj.y;
+        this.color = {
+            "noble_gas":"red",
+            "alkalai_metal":"blue",
+            "other_non_metal":"lightblue",
+            "metalloid":"grey",
+            "halogen":"purple",
+            "alkalai_earth_metal": "purple"
+
+        }
+
     }
 
     addElementBox=()=>{
@@ -19,7 +30,7 @@ class Element extends PeriodicTable{
             .attr('x', this.x * this.width)
             .attr('y', this.y*this.height)
             .attr('stroke','black')
-            .attr('fill','white');
+            .attr('fill',this.color[this.group]);
         
         // Append the symbol
         this.table.append('text')
@@ -35,7 +46,13 @@ class Element extends PeriodicTable{
             .style('text-anchor', 'middle')
             .text(this.name)
             .attr("font-size", "0.55em")
+    }
 
+    setColor=()=>{
+        if(this.x<2){
+            return "lightblue";
+        }
+        return "white";
     }
     
 }

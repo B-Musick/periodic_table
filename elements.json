@@ -6,6 +6,7 @@
         "protons":1,
         "electrons":1,
         "atomic_mass":1.008,
+        "group":"other_non_metal",
         "x":0,
         "y":0
     },
@@ -15,25 +16,88 @@
         "protons": 2,
         "electrons": 2,
         "atomic_mass": 4.003,
+        "group":"noble_gas",
         "x": 17,
         "y": 0
     },
     {
-        "name": "Lithium",
+        "name": "lithium",
         "symbol": "Li",
         "protons": 3,
         "electrons": 3,
         "atomic_mass": 6.491,
+        "group":"alkalai_metal",
         "x": 0,
         "y": 1
     },
     {
-        "name": "Beryllium",
+        "name": "beryllium",
         "symbol": "Be",
         "protons": 4,
         "electrons": 4,
         "atomic_mass": 9.012,
+        "group": "alkalai_earth_metal",
         "x": 1,
+        "y": 1
+    },
+    {
+        "name": "boron",
+        "symbol": "B",
+        "protons": 5,
+        "electrons": 5,
+        "atomic_mass": 10.81,
+        "group":"metalloid",
+        "x": 12,
+        "y": 1
+    },
+    {
+        "name": "carbon",
+        "symbol": "C",
+        "protons": 6,
+        "electrons": 6,
+        "atomic_mass": 12.01,
+        "group":"other_non_metal",
+        "x": 13,
+        "y": 1
+    },
+    {
+        "name": "nitrogen",
+        "symbol": "N",
+        "protons": 5,
+        "electrons": 5,
+        "atomic_mass": 14.01,
+        "group": "other_non_metal",
+        "x": 14,
+        "y": 1
+    },
+    {
+        "name": "oxygen",
+        "symbol": "O",
+        "protons": 6,
+        "electrons": 6,
+        "atomic_mass": 16.00,
+        "group": "other_non_metal",
+        "x": 15,
+        "y": 1
+    },
+    {
+        "name": "flouride",
+        "symbol": "F",
+        "protons": 5,
+        "electrons": 5,
+        "atomic_mass": 19.00,
+        "group":"halogen",
+        "x": 16,
+        "y": 1
+    },
+    {
+        "name": "neon",
+        "symbol": "Ne",
+        "protons": 6,
+        "electrons": 6,
+        "atomic_mass": 20.18,
+        "group":"noble_gas",
+        "x": 17,
         "y": 1
     }
     
