@@ -1,0 +1,41 @@
+[
+  
+    {
+        "name": "hydrogen",
+        "symbol":"H",
+        "protons":1,
+        "electrons":1,
+        "atomic_mass":1.008,
+        "x":0,
+        "y":0
+    },
+    {
+        "name": "helium",
+        "symbol": "He",
+        "protons": 2,
+        "electrons": 2,
+        "atomic_mass": 4.003,
+        "x": 17,
+        "y": 0
+    },
+    {
+        "name": "Lithium",
+        "symbol": "Li",
+        "protons": 3,
+        "electrons": 3,
+        "atomic_mass": 6.491,
+        "x": 0,
+        "y": 1
+    },
+    {
+        "name": "Beryllium",
+        "symbol": "Be",
+        "protons": 4,
+        "electrons": 4,
+        "atomic_mass": 9.012,
+        "x": 1,
+        "y": 1
+    }
+    
+
+    ]
